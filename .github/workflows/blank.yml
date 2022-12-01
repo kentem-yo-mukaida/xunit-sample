@@ -33,8 +33,8 @@ jobs:
 
         # テスト1 を実施
       - name: Run test
-        run: dotnet test --test-adapter-path src/TestProject1/TestProject1
+        run: dotnet test --test-adapter-path ../../TestProject1/TestProject1
 
         # テスト2 を実施
       - name: Run test
-        run: dotnet test --test-adapter-path src/TestProject2/TestProject2
+        run: dotnet test --test-adapter-path ../../TestProject2/TestProject2
