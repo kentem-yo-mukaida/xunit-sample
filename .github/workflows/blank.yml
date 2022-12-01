@@ -10,7 +10,7 @@ on:
 
 defaults:
   run:
-    working-directory: src/ConsoleApp1/ConsoleApp1
+    working-directory: src/TestProject1/ConsoleApp1
 
 jobs:
   build:
