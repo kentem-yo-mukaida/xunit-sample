@@ -35,10 +35,10 @@ jobs:
       - name: Move TestProject1
         run: cd ../TestProject1
       - name: Run test
-        run: dotnet test --test-adapter-path
+        run: dotnet test
 
         # テスト2 を実施
       - name: Move TestProject2
         run: cd ../TestProject2
       - name: Run test
-        run: dotnet test --test-adapter-path ../TestProject2
+        run: dotnet test
