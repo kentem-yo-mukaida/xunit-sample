@@ -31,10 +31,6 @@ jobs:
       - name: Build with dotnet
         run: dotnet build --configuration Release
 
-        # テスト1 を実施
-      - name: Run test
-        run: dotnet test ../TestProject1.sln
-
-        # テスト2 を実施
+        # テスト を実施
       - name: Run test
         run: dotnet test ../TestProject1.sln
