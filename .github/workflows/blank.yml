@@ -32,13 +32,9 @@ jobs:
         run: dotnet build --configuration Release
 
         # テスト1 を実施
-      - name: Move TestProject1
-        run: cd ../TestProject1
       - name: Run test
-        run: dotnet test
+        run: dotnet test ../TestProject1.sln
 
         # テスト2 を実施
-      - name: Move TestProject2
-        run: cd ../TestProject2
       - name: Run test
-        run: dotnet test
+        run: dotnet test ../TestProject1.sln
